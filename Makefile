@@ -10,10 +10,10 @@ CFLAG=-Wall -g
 #   clean
 #   distclean
 
-all: ex1 ex3 ex5 ex6
+all: ex1 ex3 ex5 ex6 ex7
 
 clean:
-	rm -f ex1 ex3 ex5 ex6
+	rm -f ex1 ex3 ex5 ex6 ex7
 
 list:
 	ls
