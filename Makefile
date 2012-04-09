@@ -1,11 +1,19 @@
 CFLAG=-Wall -g
 
-all:
-	rm -f ex1
-	make ex1
+# Info:
+# http://la-samhna.de/library/compile/makefile.html
+#
+# Common to have targets in makefile for
+#   all
+#   intall
+#   uninstall
+#   clean
+#   distclean
+
+all: ex1 ex3
 
 clean:
-	rm -f ex1
+	rm -f ex1 ex3
 
 list:
 	ls
